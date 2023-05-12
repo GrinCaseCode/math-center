@@ -61,6 +61,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(selectTab).fadeIn(200);
 	}); 
 
+	$('.tabs-personal li a.tab-personal').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-personal").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
+	}); 
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 

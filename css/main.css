@@ -1,17 +1,17 @@
 *::-webkit-input-placeholder {
-	color: #666;
+	color: #8A8A8A;
 	opacity: 1;
 }
 *:-moz-placeholder {
-	color: #666;
+	color: #8A8A8A;
 	opacity: 1;
 }
 *::-moz-placeholder {
-	color: #666;
+	color: #8A8A8A;
 	opacity: 1;
 }
 *:-ms-input-placeholder {
-	color: #666;
+	color: #8A8A8A;
 	opacity: 1;
 }
 
@@ -481,3 +481,225 @@ text-transform: uppercase;
 .create a {
 	margin-left: 15px;
 } 
+
+.personal {
+	padding-top: 43px;
+	padding-bottom: 100px;
+}
+.personal .container {
+	position: relative;
+}
+.header {
+	border-bottom: 1px solid #F3F3F3;
+}
+.tabs-personal li {
+	margin-bottom: 16px;
+}
+.tabs-personal a {
+	padding: 0 40px;
+	height: 90px;
+	padding-right: 23px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #F3F3F3;
+font-weight: 500;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #0030AE;
+}
+.tabs-personal .active a,
+.tabs-personal a:hover {
+	background: #0030AE;
+	color: #fff;
+}
+.icon-main {
+	width: 36px;
+height: 36px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #D9D9D9;
+transition: all 0.3s;
+	flex: none;
+}
+.icon-main img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.tab-pane-personal {
+	display: none;
+}
+.tab-pane-personal:first-child {
+	display: block;
+}
+.item-form {
+	margin-bottom: 19px;
+	position: relative;
+}
+.item-form .jq-selectbox__select-text,
+.item-form input,
+.item-form textarea {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 20px;
+	height: 60px;
+	background: #FFFFFF;
+border: 1px solid #C8C8C8;
+border-radius: 6px;
+	width: 100%;
+	font-weight: 400;
+	font-family: "Roboto";
+color: #8A8A8A;
+}
+.item-form .jq-selectbox__select-text {
+	display: flex;
+	color: #8A8A8A;
+	cursor: pointer;
+	align-items: center;
+}
+.item-form .jqselect {
+	width: 100%;
+	display: block;
+}
+.text-input {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 6px;
+	font-weight: 300;
+}
+.personal .title-section {
+	padding-bottom: 28px;
+}
+.tab-container-personal .row {
+	margin: 0 -12px;
+}
+.tab-container-personal .row > div {
+	padding: 0 12px;
+}
+.personal hr {
+	    border: 0;
+    height: 1px;
+    margin: 30px 0;
+	background: #0030AE;
+}
+.jq-selectbox__trigger {
+	width: 20px;
+	height: 20px;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 14px;
+	cursor: pointer;
+	    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+        font-family: "Font Awesome 5 Pro";
+    font-weight: 600;
+}
+.jq-selectbox__trigger::after {
+        content: "\f078";
+}
+.jq-selectbox__dropdown {
+		font-size: 14px;
+	line-height: 20px;
+		background: #FFFFFF;
+border: 1px solid #C8C8C8;
+color: #8A8A8A;
+border-radius: 6px;
+width: 100%;
+}
+.jq-selectbox__dropdown li {
+	padding: 10px 15px;
+	width: 100%;
+	cursor: pointer;
+}
+.btn-main input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  text-transform: inherit;
+}
+.personal .btn-main {
+	min-width: 220px;
+	margin-top: 30px;
+}
+.announcement {
+	padding: 27px 95px;
+	padding-bottom: 44px;
+	font-size: 18px;
+line-height: 27px;
+	color: #fff;
+	background: #0030AE;
+	position: relative;
+}
+.announcement::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 24px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(11.97deg, #FF1557 28.57%, #6C60EB 65.17%, #5223C9 90.98%), #D9D9D9;
+}
+.announcement__title {
+	font-size: 72px;
+line-height: 84px;
+font-weight: 500;
+}
+.announcement__line {
+	margin-bottom: 13px;
+	display: flex;
+	align-items: center;
+}
+.announcement__date {
+	margin-top: -20px;
+	display: flex;
+	align-items: center;
+}
+.announcement__date .announcement__title {
+	margin: 0 11px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+input[type="time"],
+input[type="date"] {
+ user-select: none;
+}
+.title-section_outgoing {
+	padding-top: 40px;
+}
+.personal .circle_3 {
+	bottom: -200px;
+	top: auto;
+}
